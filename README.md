@@ -24,8 +24,7 @@ pip install -r requirements.txt
 jupyter notebook main.ipynb
 ```
 
-## Project Objectives
-The aims of this project are to:
+## Model Design
 1. Develop a convolutional neural network (PetNet) for multi-class pet image classification.
 2. Introduce controlled training data biases.
 3. Compare the effects of class imbalance and label noise.
@@ -46,11 +45,74 @@ The aims of this project are to:
 
 ## Bias Experiments
 
-### Class Imbalance
+### 1）Class Imbalance
 Two biased training datasets were created by reducing the number of samples in selected classes.
-<img src="figures/dataset_samples.png" width="600">
-### Label Noise
+<img src="figures/class_imbalance_distribution.png" width="400">
+### 2）Label Noise
 Three biased training datasets were created by randomly replacing:
 - 10%/20%/30% of labels
-<img src="figures/dataset_samples.png" width="600">
+<img src="figures/level_of_noise_labels.png" width="200">
 
+## Evaluation Methods
+
+Models were evaluated using:
+
+- Accuracy
+
+- Macro Precision
+
+- Macro Recall
+
+- Macro F1-score
+
+- Weighted F1-score
+
+- Validation accuracy and loss curves
+
+- Confusion matrices
+
+- Inference visualisation
+
+## Key Results
+(tabels)
+
+```bash
+model_performance.csv
+test_evaluation.csv
+```
+(images)
+
+Validation Curves
+
+<img src="figures/validation_accuracy_and_loss_curves.png" width="600">
+
+Confusion Matrixs
+
+<img src="figures/confusion_matrix.png" width="600">
+
+Inference Visualisation (randomly select 5 test images)
+
+<img src="figures/inference_visualisation.png" width="600">
+
+## Repository Structure
+```text
+PetNet/
+├── main.ipynb
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── figures/
+├── logs/
+└── results/
+```
+
+## Conclusion
+This project demonstrates that training data quality has a substantial impact on image classification performance. Both class
+imbalance and label noise impaired model generalisation, with severe label noise producing the largest reduction in performance.
+
+## Authors
+Jialing Wang, Jianan Ding
+
+MSc Medical Physics in Cancer Radiation Therapy
+
+University of Manchester
