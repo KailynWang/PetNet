@@ -34,12 +34,13 @@ jupyter notebook main.ipynb
 ## Training Configuration
 | Parameter | Value |
 |--------|--------:|
-| Optimizer | Adam |
-| Learning Rate | 0.0005 |
 | Batch Size | 32 |
+| Num Workers | 2 |
+| Learning Rate | 0.0005 |
+| Optimizer | Adam |
 | Epochs | 250 |
-| Weight Decay | 1e-4 |
-| Dropout | 0.5 |
+| Weight Decay | 5e-4 |
+| Dropout | p = 0.5 |
 | Loss Function | CrossEntropyLoss |
 
 
