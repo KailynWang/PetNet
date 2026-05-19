@@ -1,0 +1,7 @@
+Model,Best Train Accuracy (%),Best Train Loss,Best Val Accuracy (%),Best Val Loss,Final Val Accuracy (%),Final Val Loss
+Baseline,72.62,0.91,53.4,1.6,51.36,1.71
+Class Imbalance 01,72.5,0.94,46.2,1.95,41.85,2.25
+Class Imbalance 02,73.08,0.89,45.24,2.07,41.58,2.67
+Label Noise 10%,61.04,1.42,44.02,2.04,42.26,2.17
+Label Noise 20%,53.16,1.72,41.71,2.26,39.27,2.39
+Label Noise 30%,46.06,1.97,34.51,2.52,28.12,2.76
