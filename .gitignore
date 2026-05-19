@@ -2,5 +2,9 @@ data/
 __pycache__/
 .ipynb_checkpoints/
 **/.DS_Store
-*.pth  #example: baseline_model.pth
-*.pt   #example: baseline_model.pt
+
+# PyTorch model weight files
+# Example: baseline_model.pth
+*.pth
+# Example: baseline_model.pt
+*.pt
