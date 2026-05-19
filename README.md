@@ -1,4 +1,5 @@
-# PetNet🐶🐱 - The Impact of Training Data Biason CNN-Based Classification
+# PetNet🐶🐱 
+The Impact of Training Data Bias on CNN-Based Classification
 
 This project investigates how class imbalance and label noise affect image classification performance using the Oxford-IIIT Pet dataset and a custom PyTorch convolutional neural network.
 
