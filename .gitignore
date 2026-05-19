@@ -2,5 +2,5 @@ data/
 __pycache__/
 .ipynb_checkpoints/
 **/.DS_Store
-*.pth
-*.pt
+*.pth  #example: baseline_model.pth
+*.pt   #example: baseline_model.pt
