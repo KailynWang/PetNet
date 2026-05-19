@@ -33,7 +33,8 @@ jupyter notebook main.ipynb
 4. Evaluate how these biases affect model generalisation.
 
 
-## Training Configuration
+## Training Parameters
+
 | Parameter | Value |
 |--------|--------:|
 | Batch Size | 32 |
