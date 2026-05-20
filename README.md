@@ -31,7 +31,7 @@ jupyter notebook main.ipynb
 2. Introduce controlled training data biases.
 3. Compare the effects of class imbalance and label noise.
 4. Evaluate how these biases affect model generalisation.
-
+<img src="figures/Model design.png" width="600">
 
 ## Training Parameters
 
